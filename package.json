@@ -20,9 +20,6 @@
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
-  "peerDependencies": {
-    "react": "^17.0.0"
-  },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -30,3 +27,4 @@
   ],
   "types": "dist/index.d.ts"
 }
+
