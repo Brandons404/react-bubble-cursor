@@ -16,6 +16,7 @@ export default [
       {
         file: packageJson.module,
         format: 'esm',
+        sourcemap: true,
       },
     ],
     plugins: [resolve(), commonjs(), typescript({ tsconfig: './tsconfig.json' })],
