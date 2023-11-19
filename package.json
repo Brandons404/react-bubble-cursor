@@ -1,6 +1,6 @@
 {
   "name": "@brandons404/react-bubble-cursor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight customizable animated cursor",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/brandons404"
@@ -30,4 +30,3 @@
   ],
   "types": "dist/index.d.ts"
 }
-
