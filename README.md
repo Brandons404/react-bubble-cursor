@@ -1,5 +1,7 @@
 # react-bubble-cursor
 
+[<img width="550" alt="demo" src="https://github.com/Brandons404/react-bubble-cursor/blob/master/cursor.gif">]()
+
 `react-bubble-cursor` is a customizable animated mouse cursor. This started as something I was playing around with in a few projects, and thought it would be nice as a reusable package.
 
 ### Note
