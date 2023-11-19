@@ -8,6 +8,14 @@ export interface BubbleCursorProps {
   color?: string;
 }
 
+/**
+ *
+ * @param ringSize diameter of the outer ring. Default 35
+ * @param dotSize size of the inner dot. Default 8
+ * @param drag amount of "lag" behind the cursor. Default is 20 - higher = slower. 1 for no lag
+ * @param color any standard css color string. default "#ffffff"
+ * @returns
+ */
 const BubbleCursor = ({ ringSize = 35, dotSize = 8, drag = 20, color = '#ffffff' }: BubbleCursorProps) => {
   const [showCursor, setShowCursor] = useState(true);
   const borderRef = useRef<HTMLDivElement>(null);
