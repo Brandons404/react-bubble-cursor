@@ -1,0 +1,31 @@
+{
+  "name": "@brandons404/react-bubble-cursor",
+  "version": "1.0.0",
+  "description": "Lightweight customizable animated cursor",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/brandons404"
+  },
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "brandons404",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.37",
+    "react": "^18.2.0",
+    "rollup": "^4.5.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
+
